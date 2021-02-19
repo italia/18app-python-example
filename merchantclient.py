@@ -15,7 +15,7 @@ class Voucher:
         self.codiceVoucher = codiceVoucher
         self.partitaIvaEsercente = partitaIvaEsercente
         session = Session()
-        session.cert = ('certificatodiprova.pem', 'private.key')
+        session.cert = ('certificate.pem', 'private.key')
         session.verify = False
         transport = Transport(session=session)
         wsdl = merchantconfig.MerchantConfig.wsdl()
