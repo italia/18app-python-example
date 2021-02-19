@@ -2,6 +2,8 @@ import zeep
 from zeep.exceptions import Fault
 import unittest
 from merchantclient import Voucher 
+
+
 class IntegrationTests(unittest.TestCase):
     def test_attivazione(self):
         v = Voucher('123', 'test')
