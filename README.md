@@ -1,4 +1,4 @@
-# 18app-python-sdk
+# 18app-python-example
 
 Esempio in Python per sviluppare applicazioni che accettano i vouchers 18app
 
